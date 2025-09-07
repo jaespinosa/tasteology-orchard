@@ -10,3 +10,5 @@ Built with the ff:
 - HTML
 - SCSS
 - JS
+
+- Hosted URL (Cloudflare): https://tasteology-orchard.pages.dev/ 
