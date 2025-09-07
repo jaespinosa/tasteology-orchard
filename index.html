@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Tasteology page under Orchard for testing purposes only.">
+
+		<title>Tasteology - Orchard</title>
+
+		<link rel="stylesheet" href="dist/css/bundle.css">
+		<link rel="icon" href="assets/images/favicon_io/favicon.ico" type="image/x-icon">
+		<script src="dist/js/script.js" defer></script>
+	</head>
+	<body>
+		<main>
+			<!-- Gallery Block -->
+			<section class="gallery-block">
+				<div class="gallery-image-modals">
+					<picture>
+						<source media="(max-width:992px)" srcset="assets/images/gallery-block/left@2x.webp">
+						<source media="(max-width:480px)" srcset="assets/images/gallery-block/left.webp">
+						<img src="assets/images/gallery-block/left@3x.webp" alt="Galler Image 1" class="modal-trigger">
+					</picture>
+					<picture>
+						<source media="(max-width:992px)" srcset="assets/images/gallery-block/right-top@2x.webp">
+						<source media="(max-width:480px)" srcset="assets/images/gallery-block/right-top.webp">
+						<img src="assets/images/gallery-block/right-top@3x.webp" alt="Galler Image 1" class="modal-trigger">
+					</picture>
+					<picture>
+						<source media="(max-width:992px)" srcset="assets/images/gallery-block/right-bottom@2x.webp">
+						<source media="(max-width:480px)" srcset="assets/images/gallery-block/right-bottom.webp">
+						<img src="assets/images/gallery-block/right-bottom@3x.webp" alt="Galler Image 2" class="modal-trigger">
+					</picture>
+				</div>
+				<div class="gallery-description">
+					<article class="primary">
+						<h1>What does cooking mean?</h1>
+						<div class="separator"></div>
+						<p>Is it simply applying heat to a food product? A way of making certain food safe to eat? Or a way to create flavour and make food more appealing? This is just part of what Herv&eacute; This, the father of molecular gastronomy, has dedicated his life to finding out. We spoke to him to find out what his experiments have told him. And in the process even discovered the secret to cooking the perfect egg...</p>
+					</article>
+					<article class="secondary">
+						<h6>The Perfect Egg</h6>
+						<p>Keep water between 67 and 68&deg;C for a flavourful, tender yolk</p>
+					</article>
+				</div>
+			</section>
+			<!-- End - Gallery Block -->
+			<!-- Section Block -->
+			<section class="cards-block">
+				<header>
+					<h1>Taste the Colours</h1>
+					<div class="separator"></div>
+				</header>
+				<div class="cards-container">
+					<div class="card-item">
+						<a href="javascript:void(0)" id="red_image_link">
+							<picture>
+								<source media="(max-width:992px)" srcset="assets/images/cards-block/tight-top@2x.webp">
+								<source media="(max-width:480px)" srcset="assets/images/cards-block/tight-top.webp">
+								<img src="assets/images/cards-block/tight-top@3x.webp" alt="Red Card Image">
+							</picture>
+						</a>
+						<article>
+							<h5>Red</h5>
+							<p>Red foods remind us of berries and soft fruits, so we anticipate a sweet taste.</p>
+						</article>
+					</div>
+					<div class="card-item">
+						<a href="javascript:void(0)" id="green_img_link">
+							<picture>
+								<source media="(max-width:992px)" srcset="assets/images/cards-block/tight-top2@2x.webp">
+								<source media="(max-width:480px)" srcset="assets/images/cards-block/tight-top2.webp">
+								<img src="assets/images/cards-block/tight-top2@3x.webp" alt="Green Card Image">
+							</picture>
+						</a>
+						<article>
+							<h5>Green</h5>
+							<p>Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours</p>
+						</article>
+					</div>
+					<div class="card-item">
+						<a href="javascript:void(0)" id="white_img_link">
+							<picture>
+								<source media="(max-width:992px)" srcset="assets/images/cards-block/tight-top3@2x.webp">
+								<source media="(max-width:480px)" srcset="assets/images/cards-block/tight-top3.webp">
+								<img src="assets/images/cards-block/tight-top3@3x.webp" alt="White Card Image">
+							</picture>
+						</a>
+						<article>
+							<h5>White</h5>
+							<p>White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat.</p>
+						</article>
+					</div>
+				</div>
+			</section>
+			<!-- End Section Block -->
+		</main>
+
+		<!-- Modal Dialog for Gallery Image Click -->
+		<dialog>
+			<img src="#" alt="Alternate Text" />
+		</dialog>
+		<!-- End - Modal Dialog for Gallery Image Click -->
+	</body>
+</html>
